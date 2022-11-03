@@ -34,7 +34,13 @@ const Css = () => {
         rerum ab at? Iure consectetur debitis illum totam, quam eaque ipsum quo
         esse at nulla suscipit soluta. Incidunt labore alias dignissimos.
       </p>
-      <button className="button_1" onClick={()=> navigate(-1)}>Go Back</button>
+      <button
+        className="button_1"
+        onClick={() => navigate(-1)}
+        style={{ cursor: "pointer" }}
+      >
+        Go Back
+      </button>
     </div>
   );
 };

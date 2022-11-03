@@ -1,6 +1,6 @@
 import html from "../assets/img/logo_html.png";
 import css from "../assets/img/logo_css.png";
-import brush from "../assets/img/logo_brush.png";
+import logo from "../assets/img/logo_brush.png";
 
 const data = [
   {
@@ -21,7 +21,7 @@ const data = [
     id: 3,
     title: "Graphic Design",
     body: "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users’ specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
-    src: brush,
+    src: logo,
     url: "logo",
   },
 ];

@@ -6,7 +6,7 @@ const Card = ( data ) => {
       const { src, body, title, url, id } = data;
       return (
         <div className="box" key={id} onClick={() => navigate(url)}>
-          <img src={src} alt="" />
+          <img src={src} alt="" style={{cursor:"pointer"}}/>
           <h3>{title}</h3>
           <p>{body}</p>
         </div>
