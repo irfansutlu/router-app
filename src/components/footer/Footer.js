@@ -5,13 +5,10 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <p>Clarusway Web Design, Copyright &copy; 2020</p>
-        <br />
-        <a href="http://www.clarusway.com" target="_blank">
+        <a href="https://irfansutlu.github.io/mywebsite/" target="_blank">
           <img
-            src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png"
+            src="https://irfansutlu.github.io/mywebsite/img/irfanpp-removebg-preview.png"
             width="200"
-            height="40"
             alt=""
           />
         </a>

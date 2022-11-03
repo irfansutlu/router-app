@@ -1,5 +1,7 @@
 import Card from "../components/card/Card"
 import Subscribe from "../components/subscribe/Subscribe";
+import data from "../data/data";
+
 const Home = () => {
   return (
     <div className="root">
@@ -15,7 +17,9 @@ const Home = () => {
       </section>
       {<Subscribe/>}
       <section id="boxes">
-        <div className="container">{<Card/>}</div>
+        <div className="container">{data.map((items)=>{
+          return <Card {...items}/>
+        })}</div>
       </section>
     </div>
   );
